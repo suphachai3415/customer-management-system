@@ -1,0 +1,9 @@
+/* base.css: ตั้งค่าฟอนต์และพื้นฐานทั่วทั้งเว็บ */
+body {
+  font-family: 'Inter', 'Noto Sans Thai', sans-serif;
+  font-size: 15px;
+  line-height: 1.6;
+  letter-spacing: 0.2px;
+  background-color: #f9fafb;
+  color: #212529;
+}
