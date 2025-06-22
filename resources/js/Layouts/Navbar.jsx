@@ -9,9 +9,8 @@ import {
 } from "@coreui/react";
 import CIcon from "@coreui/icons-react";
 import { cilBell } from "@coreui/icons";
-import { Link } from "@inertiajs/react";
-import UserAvatar from "../Components/UserAvatar";
-import logo from "../assets/MCS.png";
+import UserAvatar from "../components/UserAvatar";
+
 
 export default function Navbar() {
     return (
