@@ -15,10 +15,10 @@
 /node_modules
 /public/build
 /public/hot
+/database/*.sqlite
 /public/storage
 /storage/*.key
 /storage/pail
-/database/database.sqlite
 /vendor
 Homestead.json
 Homestead.yaml
