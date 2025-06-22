@@ -6,7 +6,6 @@ import { CContainer, CRow, CCol, CButton, CTooltip } from "@coreui/react";
 import MainLayout from "../../Layouts/MainLayout";
 import { FaUserPlus, FaPen, FaTrash, FaFileInvoice } from "react-icons/fa";
 import ExportDropdown from "@/Components/ExportDropdown";
-import PageHeader from "@/components/PageHeader";
 import { Toaster, toast } from "react-hot-toast";
 
 export default function Index() {
@@ -70,13 +69,12 @@ export default function Index() {
             <CContainer fluid className="p-4">
                 <CRow className="mb-4 align-items-center justify-content-between">
                     <CCol>
-                        <PageHeader
-                            title="Customer"
-                            breadcrumbs={[
-                                { label: "ลูกค้า", href: "/customers" },
-                            ]}
-                        />
-                    </CCol>
+    <div className="d-flex justify-content-between align-items-center mb-3">
+        <h4 className="mb-0">ลูกค้า</h4>
+  
+    </div>
+</CCol>
+
                     <CCol xs="auto">
                         <div className="d-flex align-items-center gap-2">
                             <ExportDropdown />
