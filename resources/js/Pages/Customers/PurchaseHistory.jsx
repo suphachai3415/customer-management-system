@@ -12,7 +12,7 @@ import {
     CTableHeaderCell,
     CTableDataCell,
 } from "@coreui/react";
-import PageHeader from "@/components/PageHeader";
+import PageHeader from "@/Components/PageHeader";
 
 export default function PurchaseHistory({ customer, purchases }) {
     const totalAll = purchases.reduce((sum, purchase) => {

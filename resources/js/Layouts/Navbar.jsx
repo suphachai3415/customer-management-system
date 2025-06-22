@@ -9,7 +9,7 @@ import {
 } from "@coreui/react";
 import CIcon from "@coreui/icons-react";
 import { cilBell } from "@coreui/icons";
-import UserAvatar from "../components/UserAvatar";
+import UserAvatar from "../Components/UserAvatar";
 
 
 export default function Navbar() {
