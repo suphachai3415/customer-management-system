@@ -6,7 +6,7 @@ import { CContainer, CRow, CCol, CButton, CTooltip } from "@coreui/react";
 import MainLayout from "../../Layouts/MainLayout";
 import { FaUserPlus, FaPen, FaTrash, FaFileInvoice } from "react-icons/fa";
 import ExportDropdown from "@/Components/ExportDropdown";
-import PageHeader from "@/Components/PageHeader";
+import PageHeader from "@/components/PageHeader";
 import { Toaster, toast } from "react-hot-toast";
 
 export default function Index() {
